@@ -1,0 +1,92 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ex1_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {ex1.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:21:05 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex1.vo 
+# -- Compiling module halfAdder
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	halfAdder
+# End time: 23:21:05 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/artmu/Desktop/ex1 {C:/Users/artmu/Desktop/ex1/halfAdderTestbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:21:06 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/artmu/Desktop/ex1" C:/Users/artmu/Desktop/ex1/halfAdderTestbench.v 
+# -- Compiling module halfAdderTestbench
+# 
+# Top level modules:
+# 	halfAdderTestbench
+# End time: 23:21:06 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  halfAdder
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" halfAdder 
+# Start time: 23:21:06 on Nov 05,2020
+# Loading work.halfAdder
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading instances from ex1_v.sdo
+# Loading timing data from ex1_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /halfAdder File: ex1.vo
+# 
+# do C:/Users/artmu/Desktop/ex1/Tcl_script1.tcl
+# add wave sim:/halfAdderTestbench/*
+# ** Error: (vish-4014) No objects found matching '/halfAdderTestbench/*'.
+# Error in macro C:\Users\artmu\Desktop\ex1\Tcl_script1.tcl line 1
+# (vish-4014) No objects found matching '/halfAdderTestbench/*'.
+#     while executing
+# "add wave sim:/halfAdderTestbench/*"
+# Error opening C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+# Error opening C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+# Error opening C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+# Error opening C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+# Error opening C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+step -over
+# Load canceled
+step -over -current
+# ** Error: (vsim-12081) The specified scope, sim:/halfAdder, is not a process or thread.
+# 
+step -over -current
+# ** Error: (vsim-12082) Thread or process sim:/halfAdder/auto_generated_inst/#ASSIGN#185 has no step-able lines.
+# 
+step -over -current
+# ** Error: (vsim-12082) Thread or process sim:/halfAdder/auto_generated_inst/#ASSIGN#185 has no step-able lines.
+# 
+step -over -current
+# ** Error: (vsim-12082) Thread or process sim:/halfAdder/auto_generated_inst/#ASSIGN#185 has no step-able lines.
+# 
+step -over -current
+# ** Error: (vsim-12082) Thread or process sim:/halfAdder/auto_generated_inst/#ASSIGN#185 has no step-able lines.
+# 
+step -over -current
+# ** Error: (vsim-12082) Thread or process sim:/halfAdder/auto_generated_inst/#ASSIGN#185 has no step-able lines.
+# 
+step -over -current
+# ** Error: (vsim-12082) Thread or process sim:/halfAdder/auto_generated_inst/#ASSIGN#185 has no step-able lines.
+# 
+# End time: 23:23:39 on Nov 05,2020, Elapsed time: 0:02:33
+# Errors: 16, Warnings: 0

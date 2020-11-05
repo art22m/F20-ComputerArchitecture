@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/artmu/Desktop/ex1/simulation/modelsim
+vhalfAdder
+Z1 !s110 1604607665
+!i10b 1
+!s100 QRLbEJgD?V=d@MJ<B2?IV0
+IP`i^8E:@K_B7SojUb[KCX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1604607655
+Z4 8ex1.vo
+Z5 Fex1.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1604607665.000000
+Z8 !s107 ex1.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ex1.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+nhalf@adder
+vhalfAdderTestbench
+!s110 1604607666
+!i10b 1
+!s100 _gzJBk_85bkX@JbIVznhG1
+IUmFh86f6]?f3gG61@cc?H2
+R2
+R0
+w1604606831
+8C:/Users/artmu/Desktop/ex1/halfAdderTestbench.v
+FC:/Users/artmu/Desktop/ex1/halfAdderTestbench.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1604607666.000000
+!s107 C:/Users/artmu/Desktop/ex1/halfAdderTestbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/artmu/Desktop/ex1|C:/Users/artmu/Desktop/ex1/halfAdderTestbench.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/artmu/Desktop/ex1
+R12
+nhalf@adder@testbench
+vhard_block
+R1
+!i10b 1
+!s100 hVYQ[i=;GChn]i7lN>QBj2
+ILz[ICEP<@`f]0Wg89`Ao22
+R2
+R0
+R3
+R4
+R5
+L0 162
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
