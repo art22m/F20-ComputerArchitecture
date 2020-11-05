@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/artmu/Desktop/ex2/fullAdder.v
+source_file = 1, C:/Users/artmu/Desktop/ex2/fullAdderTestbench.v
+source_file = 1, C:/Users/artmu/Desktop/ex2/Tcl_script1.tcl
+source_file = 1, C:/Users/artmu/Desktop/ex2/db/ex2.cbx.xml
+design_name = fullAdder
+instance = comp, \sum~output , sum~output, fullAdder, 1
+instance = comp, \carryo~output , carryo~output, fullAdder, 1
+instance = comp, \a~input , a~input, fullAdder, 1
+instance = comp, \carryi~input , carryi~input, fullAdder, 1
+instance = comp, \b~input , b~input, fullAdder, 1
+instance = comp, \sum~0 , sum~0, fullAdder, 1
+instance = comp, \carryo~0 , carryo~0, fullAdder, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

@@ -1,0 +1,52 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ex2_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {ex2.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:12 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex2.vo 
+# -- Compiling module fullAdder
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	fullAdder
+# End time: 23:31:12 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/artmu/Desktop/ex2 {C:/Users/artmu/Desktop/ex2/fullAdderTestbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:12 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/artmu/Desktop/ex2" C:/Users/artmu/Desktop/ex2/fullAdderTestbench.v 
+# -- Compiling module fullAdderTestbench
+# 
+# Top level modules:
+# 	fullAdderTestbench
+# End time: 23:31:12 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  fullAdderTestbench
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" fullAdderTestbench 
+# Start time: 23:31:12 on Nov 05,2020
+# Loading work.fullAdderTestbench
+# ** Error: (vsim-3033) C:/Users/artmu/Desktop/ex2/fullAdderTestbench.v(9): Instantiation of 'full_adder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /fullAdderTestbench File: C:/Users/artmu/Desktop/ex2/fullAdderTestbench.v
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/artmu/Desktop/ex2/simulation/modelsim/gate_work
+#             C:/Users/artmu/Desktop/ex2/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ex2_run_msim_gate_verilog.do PAUSED at line 12
+# End time: 23:31:16 on Nov 05,2020, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
